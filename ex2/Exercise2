@@ -17,3 +17,4 @@ Libraries files are used during the linking process where linker(or compiler) re
 No, a library contains typically contains many (in the order of hundreds) object files to avoid the overhead of linking every single object file each time. 
  
 *Why is an object file obtained after compiling a source containing int main() not an executable program? 
+Because linking is not done. This process needs to be done by the linker so that it links multiple object files, pre-compiled library etc. before turning into a single binary program.  
