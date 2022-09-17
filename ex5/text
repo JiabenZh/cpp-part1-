@@ -1,0 +1,8 @@
+
+Redirection: 
+ Output redirection '>' : redirect stdout to a specified file so that the output of a program will be copied into the specified file. 
+ Input redirection '<' : redirect stdin to the specified file as a source of input, and a program will fetch the content from stdin.
+
+
+Piping:
+ Pass the output of a command as input to another. 
