@@ -10,10 +10,16 @@ int main()
   size_t value;
   cin >> value;
   
-  cout << ((value % 2 == 1) ? "odd" : "even") << '\n';             // #odd % 2 == 1, #even % 2 == 0
-  cout << (((value ^ 1) == value - 1) ? "odd" : "even") << '\n';   // #odd ^ 1 == #odd - 1, #even ^ 1 == #even + 1
-  cout << (((value & 1) == 1) ? "odd" : "even") << '\n';           // #odd & 1 == 1, #even ^ 1 == 0
-  cout << (((value | 1) == value) ? "odd" : "even") << '\n';       // #odd | 1 == #odd, #even | 1 > #even   
-  cout << (((value / 2) * 2 != value) ? "odd" : "even") << '\n';   // (#odd / 2) * 2 != #odd, (#odd / 2)  * 2 == #odd
-  cout << (((value >> 1) << 1 != value) ? "odd" : "even") << '\n'; // similar to expression 5, but expressed with shift operators.
+  cout << ((value % 2 == 1) ? "odd" : "even") << '\n';             
+  // #odd % 2 == 1, #even % 2 == 0
+  cout << (((value ^ 1) == value - 1) ? "odd" : "even") << '\n';   
+  // #odd ^ 1 == #odd - 1, #even ^ 1 == #even + 1
+  cout << (((value & 1) == 1) ? "odd" : "even") << '\n';           
+  // #odd & 1 == 1, #even ^ 1 == 0
+  cout << (((value | 1) == value) ? "odd" : "even") << '\n';       
+  // #odd | 1 == #odd, #even | 1 > #even   
+  cout << (((value / 2) * 2 != value) ? "odd" : "even") << '\n';   
+  // (#odd / 2) * 2 != #odd, (#odd / 2)  * 2 == #odd
+  cout << (((value >> 1) << 1 != value) ? "odd" : "even") << '\n'; 
+  // similar to expression 5, but expressed with shift operators.
 }

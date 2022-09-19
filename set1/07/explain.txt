@@ -10,5 +10,6 @@ The binary equivalent of 0xcof is:
  
  (3) - "the next 4 bits hold the value 7", thus 0111
  
- (4) - "the next 4 bits hold the value 15". for the first three hex characters, this is the MSB of 15, thus 1.
+ (4) - "the next 4 bits hold the value 15". for the first three hex characters, 
+ this is the MSB of 15, thus 1.
  
