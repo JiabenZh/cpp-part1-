@@ -1,6 +1,6 @@
 
 *The commands you entered to compile and link the program; 
- Command to compile the hello.cc source code:  g++ -Wall -std=c++20 -c hello hello.cc
+ Command to compile the hello.cc source code:  g++ -Wall -std=c++20 -Werror  -c hello hello.cc
  Command to generate a binary program: g++ -Wall -std=c++20 -o hello hello.cc
 
 *The short descriptions of object file and executable; 
